@@ -140,7 +140,7 @@ def search_skin_disease(query_text=None, query_image=None, top_k=5):
 # generate_image_caption("image_11.jpeg")
 
 import huggingface_hub
-huggingface_hub.login("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")
+huggingface_hub.login("HF_TOKEN")
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import BitsAndBytesConfig
